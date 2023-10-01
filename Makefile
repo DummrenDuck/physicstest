@@ -1,5 +1,6 @@
 all:
-	rm -rf bin/lin64/* bin/win32/*
+	rm -rf bin
+	mkdir -p bin/lin64 bin/win32
 
 	g++ -o bin/lin64/physicstest src/*.cpp \
 		-I./include/gen \
