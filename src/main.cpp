@@ -97,6 +97,8 @@ void start() {
                                              localInertia);
 
   floorBody = new btRigidBody(rigidBodyInfo);
+  floorBody->setFriction(1.0f);
+
   dynamicsWorld->addRigidBody(floorBody);
 
 
