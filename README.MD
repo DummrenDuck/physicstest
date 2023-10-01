@@ -7,11 +7,11 @@ build is possible under any popular linux distro or `WSL` with following package
 
 fedora:
 ```
-sudo dnf install libglvnd-devel glew-devel glfw-devel glm-devel
+sudo dnf install libglvnd-devel glew-devel glfw-devel glm-devel mingw32-gcc-g++
 ```
 ubuntu (i don't use ubuntu so this list may be incorrect):
 ```
-sudo apt install libgl-dev libglew-dev libglfw3-dev libglm-dev
+sudo apt install libgl-dev libglew-dev libglfw3-dev libglm-dev g++-mingw-w64-i686
 ```
 ## build
 simply use command
