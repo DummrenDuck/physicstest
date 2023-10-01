@@ -1,5 +1,5 @@
 ## tldr
-there are windows and linux binaries in `packages` section
+there are windows and linux binaries in `releases` section
 ## supported operating systems
 windows (x86) and linux (x86_64) (see below)
 ## build requirements
