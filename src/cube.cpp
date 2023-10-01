@@ -136,6 +136,7 @@ Cube::Cube(glm::vec4 t_color, glm::vec3 t_initPos) {
 
   m_rigidBody = new btRigidBody(rbInfo);
   m_rigidBody->setFriction(1.0f);
+  m_rigidBody->setActivationState(DISABLE_DEACTIVATION);
 
   dynamicsWorld->addRigidBody(m_rigidBody);
 }
